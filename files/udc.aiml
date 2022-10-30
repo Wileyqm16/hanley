@@ -28,4 +28,19 @@
         <template>Whichever candidate follows your principles the most, the current president of Argentina is Alberto Fernández.</template>
     </category>
  
+    <category>
+        <pattern>How old is the United States?</pattern>
+        <template>The United States is 246 years old as of July 4, 2022. Argentina is 206 years old.</template>
+    </category>
+    
+    <category>
+        <pattern>How old am I?</pattern>
+        <template>I have no idea, but I was never born because I am a computer program. Did you know that Buenos Aires has over 85% of the tech activity in Argentina?</template>
+    </category>
+    
+    <category>
+        <template>What should I do?</template>
+        <pattern>You should eat a donut. Futbol, or soccer in the US, is Argentina's favorite passtime.</pattern>
+    </category>
+ 
  </aiml>
