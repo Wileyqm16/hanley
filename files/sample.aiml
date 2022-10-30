@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
 	
- <category>
-<pattern>What should I eat?</pattern>
-<template>
-    <random>
-        <li>Whatever your heart desires, but the most popular restaraunt in Argentina is Fogon Asado in Buenos Aires.</li>
-        <li>Culvers is always a good choice, but did you know that McDonald's is the most common fast food joint in Argentina?</li>
-        <li>You can never go wrong with asado, or barbecue. It is the most common dish in Argentina after all.</li>
-    </random>
-</template>
- </category>
+    <category>
+       <pattern>What should I eat?</pattern>
+       <template>
+          <random>
+             <li>Whatever your heart desires, but the most popular restaraunt in Argentina is Fogon Asado in Buenos Aires.</li>
+             <li>Culvers is always a good choice, but did you know that McDonald's is the most common fast food joint in Argentina?</li>
+             <li>You can never go wrong with asado, or barbecue. It is the most common dish in Argentina after all.</li>
+          </random>
+       </template>
+    </category>
  
  <category>
 <pattern>What should I watch?</pattern>
@@ -23,5 +22,25 @@
     </random>
 </template>
  </category>
+ 
+    <category>
+        <pattern>Who should I vote for?</pattern>
+        <template>Whichever candidate follows your principles the most, the current president of Argentina is Alberto Fernández.</template>
+    </category>
+ 
+    <category>
+        <pattern>How old is the United States?</pattern>
+        <template>The United States is 246 years old as of July 4, 2022. Argentina is 206 years old.</template>
+    </category>
+    
+    <category>
+        <pattern>How old am I?</pattern>
+        <template>I have no idea, but I was never born because I am a computer program. Did you know that Buenos Aires has over 85% of the tech activity in Argentina?</template>
+    </category>
+    
+    <category>
+        <template>What should I do?</template>
+        <pattern>You should eat a donut. Futbol, or soccer in the US, is Argentina's favorite passtime.</pattern>
+    </category>
  
  </aiml>
