@@ -3,12 +3,23 @@
 	<!-- insert your AIML categories here -->
 	
  <category>
-<pattern>Where should I eat?</pattern>
+<pattern>What should I eat?</pattern>
 <template>
     <random>
-        <li>Wherever your heart desires, but the most popular restaraunt in Argentina is Fogon Asado in Buenos Aires.</li>
+        <li>Whatever your heart desires, but the most popular restaraunt in Argentina is Fogon Asado in Buenos Aires.</li>
         <li>Culvers is always a good choice, but did you know that McDonald's is the most common fast food joint in Argentina?</li>
         <li>You can never go wrong with asado, or barbecue. It is the most common dish in Argentina after all.</li>
+    </random>
+</template>
+ </category>
+ 
+ <category>
+<pattern>What should I watch?</pattern>
+<template>
+    <random>
+        <li>Ozark on Netflix is pretty good, the most popular show in Argentina is Diary of a Gigolo.</li>
+        <li>Watch something at the theaters, Spiderman: No Way Home was the most viewed movie at the theaters in Argentina in 2021.</li>
+        <li>How to Train Your Dragon is my favorite, and did you know that Argentina has more than 280 movie theaters?</li>
     </random>
 </template>
  </category>

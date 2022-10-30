@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
-  </category>
-</aiml>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+ <category>
+<pattern>Where should I eat?</pattern>
+<template>
+    <random>
+        <li>Wherever your heart desires, but the most popular restaraunt in Argentina is Fogon Asado in Buenos Aires.</li>
+        <li>Culvers is always a good choice, but did you know that McDonald's is the most common fast food joint in Argentina?</li>
+        <li>You can never go wrong with asado, or barbecue. It is the most common dish in Argentina after all.</li>
+    </random>
+</template>
+ </category>
+ 
+ </aiml>
